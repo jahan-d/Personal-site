@@ -74,3 +74,13 @@ button {
     font-family: var(--font);
     width: 160px;
 }
+
+.orbital {
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+}
+.wanna-flex{
+    display: flex;
+}

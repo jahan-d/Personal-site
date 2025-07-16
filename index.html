@@ -1,16 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Black+Ops+One&family=Creepster&family=La+Belle+Aurore&family=MedievalSharp&family=Orbitron&family=Rye&display=swap" rel="stylesheet">
         <script src="index.js"></script>
             <title>About Me - Jahan</title>
+        <style>
+      .orbital {
+        margin: 10px;
+      }
+    </style>
+
+        <script type="importmap">
+			{
+				"imports": {
+					"three": "https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.module.js",
+          "jsm/": "https://cdn.jsdelivr.net/npm/three@0.161.0/examples/jsm/"
+        }
+			}
+		</script>
     </head>
     <body>
-        <img src="DP.jpg" width="6%">
-            <h1>Welcome!</h1>
+        <div class="wanna-flex">
+            <div>
+                <img src="dp.jpg" width="6%">
+                <h1>Welcome!</h1>
+            </div>
+            <div class="orbital"></div>
+        </div>
     <p>My name is <strong>Jahan</strong>. I am a Computer Science student and an aspiring web developer with a passion for building user-friendly and efficient websites.</p>
 
     <h2>A Few Facts About Me:</h2>
@@ -25,8 +45,6 @@
 
         <input type="text" placeholder="Enter email...">
         <button>Hire me</button>
-    </body>
-                
-
+    <script type="module" src="three.js"></script>
     </body>
 </html>
